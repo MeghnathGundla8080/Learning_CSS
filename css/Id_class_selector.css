@@ -1,0 +1,17 @@
+.heading1 {
+    color: red;
+    font-size: 50px;
+}
+
+#heading1 {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading2 {
+    color: blueviolet;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: line;
+}
+
