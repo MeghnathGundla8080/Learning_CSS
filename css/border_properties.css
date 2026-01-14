@@ -1,0 +1,47 @@
+/* solid , dashed double dotted inset outset groove ridge  */
+
+
+
+.b_img1{
+    width: 400px;
+    border: 8px solid red;
+}
+
+.b_img2{
+    width: 400px;
+    border: 8px dotted rgb(82, 28, 28);
+}
+
+.b_img3{
+    width: 400px;
+    border: 8px dashed rgb(34, 79, 169);
+}
+
+.b_img4{
+    width: 400px;
+    border: 8px ridge rgb(34, 79, 169);
+}
+
+.b_img5{
+    width: 400px;
+    border: 8px double rgb(34, 79, 169);
+}
+
+
+.b_img6{
+    width: 400px;
+    border: 10px solid;
+    /* border-top-color:red ;
+    border-right-color:blue ;
+    border-bottom:green ;
+    border-left-color:black ; */
+    border-color: red blue green yellow;
+    border-radius: 10px;
+}
+
+.b_img7{
+    width: 400px;
+    border: 10px solid red;
+    border-radius: 10px 50px 20px 30px;
+   
+}
