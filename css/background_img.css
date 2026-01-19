@@ -1,0 +1,18 @@
+body{
+    background-image: url(/images/nebula-10062679_1920.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1{
+    color: yellow;
+    font-size: 50px;
+    
+}
+
+.demo{
+    color: yellow;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}

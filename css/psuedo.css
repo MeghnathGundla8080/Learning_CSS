@@ -1,0 +1,54 @@
+.btn{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(109, 77, 77);
+    border: 2px solid rgb(31, 27, 27);
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(171, 40, 25);
+    border: 2px solid rgb(255, 253, 253);
+       
+}
+
+.btn1{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(109, 77, 77);
+    border: 2px solid rgb(31, 27, 27);
+    border-radius: 20px;
+}
+
+.btn1:active{
+    background-color: rgb(25, 25, 171);
+    border: 2px solid rgb(93, 86, 109);
+}
+
+
+a:visited{
+color: black;
+}
+
+input:focus{
+background-color: black;
+color: white;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+p::first-line{
+    color: blue;
+}
+
+::selection{
+    background-color: black;
+    color: wheat;
+}
+
+
+
+
