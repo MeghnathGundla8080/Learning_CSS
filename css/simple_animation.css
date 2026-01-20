@@ -1,0 +1,25 @@
+.box{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    animation: msg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    /* animation-direction: alternate; */
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes msg{
+    0%{background-image: url(/images/drink-25280_128.gif);left: 0px;top: 0px;}
+    25%{background-image: url(/images/drink-25280_128.gif);left: 300px;top: 0px;}
+    50%{background-image: url(/images/drink-25280_128.gif);left: 300px;top:300px;}
+    75%{background-image: url(/images/drink-25280_128.gif);left: 0px;top: 300px;}
+    100%{background-image: url(/images/drink-25280_128.gif);left: 0px;top: 0px;}
+}
