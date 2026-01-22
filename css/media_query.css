@@ -1,0 +1,50 @@
+@media only screen and (min-width: 320px) and (max-width: 850px){
+    body{
+        background-color: yellow;
+        
+    }
+       .media-img{
+        height: 300px;
+        width: 300px;
+    }
+
+    p{
+        font-size: 50px;
+    }
+}
+
+
+@media (min-width: 1024px){
+    body{
+        background-color: black;
+        color: white;
+    
+    }
+
+       .media-img{
+        height: 200px;
+        width: 200px;
+    }
+
+    p{
+        font-size: 50px;
+        text-decoration: line-through;
+    }
+}
+
+
+@media (min-width: 850px) and (max-width:950px){
+    body{
+        background-color: aqua;
+    }
+
+    .media-img{
+        height: 100px;
+        width: 100px;
+    }
+
+    p{
+        font-size: 30px;
+        text-decoration: overline;
+    }
+}
